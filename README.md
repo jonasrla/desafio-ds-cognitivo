@@ -5,6 +5,7 @@ Neste desafio escolhi construir um modelo preditivo para preços de anúncios do
 Essas três tabelas passarão por um tratamento prévio no notebook `1 - Preparação de dados`, no qual algumas variáveis serão tratadas e a porção que usarei para teste é reservada. Essa porção é importante para validarmos o comportamento do nosso modelo numa situação real.
 
 ## Perguntas
+
 a. Como foi a definição da sua estratégia de modelagem?
 
 Avaliando-se as tabelas disponíveis para a cidade, três me chamaram mais atenção: `calendar`, `listings` e `reviews`.
