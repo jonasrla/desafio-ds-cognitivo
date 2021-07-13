@@ -31,3 +31,7 @@ Executei 30 vezes com os mesmos datasets de treino e validação, para evitar fl
 e. Quais evidências você possui de que seu modelo é suficientemente bom?
 
 Não acredito que ele seja ainda um modelo bom para produção. Mas acredito que o modelo usa todas informações relevantes para determinar o preço. Acredito essa discussão está mais detalhada no notebook `2 - Explora Dados`
+
+---
+
+Para a comissão avaliadora: Se interessar verificar análise da qualidade do modelo que fiz após o prazo, olhe a branch `adiciona_teste` deste repositório
