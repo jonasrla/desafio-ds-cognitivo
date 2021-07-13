@@ -31,3 +31,15 @@ Executei 30 vezes com os mesmos datasets de treino e validação, para evitar fl
 e. Quais evidências você possui de que seu modelo é suficientemente bom?
 
 Não acredito que ele seja ainda um modelo bom para produção. Mas acredito que o modelo usa todas informações relevantes para determinar o preço. Acredito essa discussão está mais detalhada no notebook `2 - Explora Dados`
+
+ ---
+
+## Pós entrega
+
+Avaliei o modelo com os dados de teste que separei.
+
+O Erro quadrático médio é de `11996.70`, já o erro quadrático médio ignorando erros de ordem grandeza já é de `266.16`. Considerando que a própria mediana é de `R$ 267,00` o modelo não parece satisfatório. Dos 3000 anúncios separados, `224`, isto é `7,5%`, foram erros de alta magnitude.
+
+Acredito que a qualidade do modelo pode melhorar muito se conseguirmos restringir mais as características dos anúncios de alto valor.
+
+Outras coisas que poderiam ser exploradas são as melhorias de em metaparâmetros em gridsearch que não priorizei nessa exploração.
